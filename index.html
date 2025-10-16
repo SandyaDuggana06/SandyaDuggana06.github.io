@@ -3,21 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is a simple HTML page.</p>
 
-    <h2>About Me</h2>
-    <p>I’m learning HTML and building cool web projects 🚀</p>
+    <header>
+        <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+        <p>Data Analyst | Web Developer | Tech Enthusiast</p>
+    </header>
 
-    <h3>My Favorite Links</h3>
-    <ul>
-        <li><a href="https://www.google.com" target="_blank">Google</a></li>
-        <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
-    </ul>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm passionate about turning data into insights and ideas into interactive web experiences. 
+            I love learning new technologies and creating projects that make an impact.
+        </p>
+    </section>
 
-    <p>Thanks for visiting!</p>
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>✈️ Airline Data Dashboard</h3>
+            <p>A Snowflake + Python dashboard for analyzing flight delays and routes.</p>
+        </div>
+
+        <div class="project">
+            <h3>💻 Personal Website</h3>
+            <p>A responsive portfolio built with HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="project">
+            <h3>📊 Sales Insights</h3>
+            <p>Interactive Power BI dashboard visualizing business performance.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Your Name — All Rights Reserved</p>
+    </footer>
+
 </body>
 </html>
